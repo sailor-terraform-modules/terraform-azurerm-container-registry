@@ -17,11 +17,3 @@ variable "sku" {
   type        = string
   description = "sku name of container registry this can be like, Basic, Standard, Premium"
 }
-variable "application_name" {
-  type        = string
-  description = "appliaction name of container registry "
-}
-variable "service_principal_password" {
-  type        = string
-  description = " password of service principle"
-}
